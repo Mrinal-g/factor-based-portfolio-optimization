@@ -1,8 +1,8 @@
 # Factor-Based Portfolio Optimization and Strategy Backtesting
 
-This project develops a **systematic portfolio optimization framework** to evaluate how different covariance and expected return estimators affect portfolio performance across market regimes. The framework applies **factor-based return estimation and mean–variance optimization** to construct and evaluate long-only and long-short ETF portfolios.
+This project implements a **factor-based portfolio optimization framework** to construct and evaluate ETF portfolios using mean–variance optimization and factor models. The system estimates expected returns using the **Fama–French three-factor model**, optimizes portfolio weights under different risk-aversion levels, and evaluates strategy performance through a rolling backtesting framework.
 
-The analysis studies estimator sensitivity and portfolio performance across **pre-crisis, crisis, and post-crisis market environments**.
+The objective is to compare **long-only and long-short portfolio strategies** and analyze their risk-adjusted performance across different market environments.
 
 ---
 
