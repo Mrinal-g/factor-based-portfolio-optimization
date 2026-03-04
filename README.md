@@ -135,7 +135,8 @@ Contains the full research report detailing:
 - CVXPY
 - Matplotlib
 
---
+---
+
 ## Applications
 
 This project demonstrates techniques commonly used in:
