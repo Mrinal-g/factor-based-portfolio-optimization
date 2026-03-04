@@ -103,10 +103,10 @@ These results highlight the importance of **estimator selection in systematic po
 
 factor-based-portfolio-optimization/
 ├── notebook/
-│ └── code_factor_portfolio.pdf
+│     └── code_factor_portfolio.pdf
 │
 ├── report/
-│ └── report_factor_portfolio.pdf
+│     └── report_factor_portfolio.pdf
 │
 └── README.md
 
