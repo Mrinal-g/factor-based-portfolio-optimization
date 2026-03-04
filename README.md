@@ -127,7 +127,7 @@ Contains the full research report detailing:
 
 ---
 
-## Technologies Used
+## Libraries Used
 
 - Python
 - Pandas
