@@ -88,12 +88,9 @@ Portfolio performance is evaluated using:
 
 ## Key Findings
 
-- Long-short strategies produced **significantly higher risk-adjusted returns** compared to long-only portfolios.
-- Portfolio performance is **highly sensitive to the choice of covariance and expected return estimators**.
-- Short-term estimators adapt quickly to market changes but introduce **higher estimation noise**.
-- Long-term estimators provide **more stable portfolio allocations during recovery periods**.
-
-These results highlight the importance of **estimator selection in systematic portfolio construction**.
+- Long–short portfolios achieved higher **risk-adjusted returns** compared to long-only strategies.
+- Portfolio performance depends strongly on the **risk and return estimates used in the optimization process**.
+- Allowing short positions improves diversification and enables better hedging during volatile market conditions.
 
 ---
 
@@ -140,7 +137,7 @@ Contains the full research report detailing:
 
 --
 ## Applications
--
+
 This project demonstrates techniques commonly used in:
 
 - Quantitative portfolio construction
