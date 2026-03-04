@@ -101,34 +101,33 @@ These results highlight the importance of **estimator selection in systematic po
 
 ## Repository Structure
 
+```
 factor-based-portfolio-optimization/
-|
- ├── notebook/
-│ └── code_factor_portfolio.pdf
 │
- ├── report/
-│ └── report_factor_portfolio.pdf
+├── notebook/
+│   └── code_factor_portfolio.pdf
 │
- └── README.md
-
+├── report/
+│   └── report_factor_portfolio.pdf
+│
+└── README.md
+```
 
 ### notebook/
-
 Contains the implementation notebook describing:
 
-- data processing
-- factor model estimation
-- portfolio optimization
-- backtesting framework
-- strategy evaluation
+- data preprocessing  
+- factor model estimation  
+- portfolio optimization  
+- backtesting framework  
+- strategy evaluation  
 
 ### report/
+Contains the full research report detailing:
 
-Contains the full research report including:
-
-- methodology
-- empirical analysis
-- performance results
+- methodology  
+- empirical analysis  
+- results  
 - conclusions
 
 ---
