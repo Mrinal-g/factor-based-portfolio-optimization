@@ -1,8 +1,12 @@
 # Factor-Based Portfolio Optimization and Strategy Backtesting
 
-This project implements a **factor-based portfolio optimization framework** to construct and evaluate ETF portfolios using mean–variance optimization and factor models. The system estimates expected returns using the **Fama–French three-factor model**, optimizes portfolio weights under different risk-aversion levels, and evaluates strategy performance through a rolling backtesting framework.
+This project implements a factor-based portfolio optimization and strategy evaluation framework using mean–variance optimization and the Fama–French three-factor model. The system constructs and evaluates long-only and long-short ETF portfolios through a rolling backtesting framework and analyzes strategy performance using risk-adjusted metrics.
 
-The objective is to compare **long-only and long-short portfolio strategies** and analyze their risk-adjusted performance across different market environments.
+---
+
+## Project Type
+
+Applied quantitative finance project focused on **portfolio analytics, optimization, and strategy backtesting** using factor models.
 
 ---
 
@@ -10,9 +14,9 @@ The objective is to compare **long-only and long-short portfolio strategies** an
 
 - Construct optimized portfolios using **mean–variance optimization**
 - Estimate expected returns using **factor-based models**
-- Analyze **estimator sensitivity across market regimes**
-- Compare **long-only and long-short portfolio strategies**
-- Evaluate performance using **risk-adjusted metrics**
+- Implement **long-only and long-short portfolio strategies**
+- Evaluate portfolio performance through **rolling backtesting**
+- Compare strategies using **risk-adjusted performance metrics**
 
 ---
 
@@ -22,7 +26,7 @@ The objective is to compare **long-only and long-short portfolio strategies** an
 
 Portfolio weights are estimated using a **mean–variance optimization framework**:
 
-max(wᵀμ − λ wᵀΣw)
+max ( wᵀ μ − λ wᵀ Σ w )
 
 Where:
 
@@ -64,13 +68,7 @@ Two portfolio strategies are evaluated.
 
 ## Backtesting Framework
 
-Portfolio strategies are evaluated using a **rolling backtesting framework with periodic rebalancing**.
-
-Performance is analyzed across multiple market regimes:
-
-- Pre-Crisis Period
-- Financial Crisis Period
-- Post-Crisis Recovery
+Performance is evaluated using a **rolling backtesting framework with periodic rebalancing** to assess portfolio behavior across different market conditions.
 
 ---
 
@@ -140,16 +138,15 @@ Contains the full research report detailing:
 - CVXPY
 - Matplotlib
 
----
-
+--
 ## Applications
-
-This project demonstrates techniques used in:
+-
+This project demonstrates techniques commonly used in:
 
 - Quantitative portfolio construction
-- Systematic investing strategies
-- Factor-based asset allocation
-- Portfolio risk analytics
+- Systematic asset allocation
+- Portfolio analytics and performance evaluation
+- Factor-based investment strategies
 
 ---
 
